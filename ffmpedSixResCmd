@@ -1,0 +1,1 @@
+ffmpeg -f gdigrab -framerate 60 -i desktop -vf "fps=30,scale=692:390,format=yuv420p" -c:v libsvtav1 -crf 25 -preset 3 -g 30 -keyint_min 30 -sc_threshold 0 -an -movflags frag_keyframe+empty_moov+default_base_moof -f mp4 pipe:1
