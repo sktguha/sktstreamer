@@ -1,5 +1,11 @@
 # sktstreamer
 
+## why use sktstreamer vs moonlight etc ?
+This project is mainly aimed at **slow, unreliable, or high-latency networks** where conventional game-streaming solutions may struggle.
+
+For a strong local Wi-Fi connection, **Parsec or Moonlight are generally easier and more polished**.
+
+`sktstreamer` is for mainly getting a smooth video especially for open world games, where players prefer to enjoy the view and scenery, while the live preview shows where you are like driving a car in open world games. so you can drive properly. so it basically shows the smooth video but latency can be higher . there is also a live edge mode that might need experimenting with resolutions etc because if the client runs out of frames nothing can be done as the network itself is not providing. 
 # Quick Start — For Beginners
 
 ## 1. Install the requirements
@@ -108,14 +114,6 @@ ws://100.x.x.x:7600/
 ```
 
 This lets the phone reach your PC remotely without manually port-forwarding the streaming server.
-
-## Why use sktstreamer?
-
-This project is mainly aimed at **slow, unreliable, or high-latency networks** where conventional game-streaming solutions may struggle.
-
-For a strong local Wi-Fi connection, **Parsec or Moonlight are generally easier and more polished**.
-
-`sktstreamer` is for mainly getting a smooth video especially for open world games, where players prefer to enjoy the view and scenery, while the live preview shows where you are like driving a car in open world games. so you can drive properly. so it basically shows the smooth video but latency can be higher . there is also a live edge mode that might need experimenting with resolutions etc because if the client runs out of frames nothing can be done as the network itself is not providing. 
 
 ```text
 Game
