@@ -1,11 +1,11 @@
 # sktstreamer
 
 ## why use sktstreamer vs moonlight etc ?
-This project is mainly aimed at **slow, unreliable, or high-latency networks** where conventional game-streaming solutions may struggle.
+`sktstreamer` is for mainly getting a smooth video especially for open world games, where players prefer to enjoy the view and scenery, while the live preview shows where you are like driving a car in open world games. essentially the main target is for use over **mobile networks** 4g, 5g etc . where you can still get good video. 
 
-For a strong local Wi-Fi connection, **Parsec or Moonlight are generally easier and more polished**.
+so you can drive properly. so you can see both the live preview and the smooth video as well even on slow mobile networks. av1 codec is highly recommended.  .
 
-`sktstreamer` is for mainly getting a smooth video especially for open world games, where players prefer to enjoy the view and scenery, while the live preview shows where you are like driving a car in open world games. so you can drive properly. so it basically shows the smooth video but latency can be higher . there is also a live edge mode that might need experimenting with resolutions etc because if the client runs out of frames nothing can be done as the network itself is not providing. 
+so it basically shows the smooth video but latency can be higher . there is also a live edge mode that might need experimenting with resolutions etc because if the client runs out of frames nothing can be done as the network itself is not providing. so basically you might put a low resolution like 320 * 240 and upscale it in the UI . spline upscaling is recommended. that way also a live video or even in slow networks it can work. there is a network counter at very last that shows , can be helpful for tuning .
 # Quick Start — For Beginners
 
 ## 1. Install the requirements
